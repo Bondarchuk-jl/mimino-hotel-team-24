@@ -8,6 +8,7 @@
     text-align: center;
     padding-top: 58px;
     padding-bottom: 58px;
+    padding-left: 15px;
 }
 
 .footer-logo-first {
@@ -90,13 +91,16 @@
 
 @media screen and (min-width:414px) {
     .footer>.container {
-        width: 345px;
+        width: 360px;
+    }
+    .footer-logo {
+        padding-left: 15px;
     }
 }
 
 @media screen and (min-width:1024px) {
     .footer>.container {
-        width: 760px;
+        width: 774px;
     }
 
     .footer {
@@ -120,6 +124,7 @@
         padding-top: 37px;
         padding-bottom: 38px;
         margin-right: 163px;
+        padding-left: 15px;
     }
     .footersec-list {
         margin-bottom: 0px;
@@ -155,7 +160,8 @@
 
 @media screen and (min-width:1280px) {
     .footer>.container {
-        width: 878px;
+        width: 893px;
+        
     }
     .footersec-all {
         width: 446px;
@@ -164,6 +170,6 @@
     .footer-logo {
         padding-top: 40px;
         padding-bottom: 35px;
-        margin-right: 231px;
+        margin-right: 231px;padding-left: 15px;
     }
 } 
